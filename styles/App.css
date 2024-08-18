@@ -17,10 +17,5 @@
         flex-direction: column;
         gap: 34px;
     }
-    .left{
-        width: 0px;
-    }
-    input{
-        width: 276px
-    }
+  
 }

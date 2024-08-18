@@ -1,0 +1,13 @@
+.rightt{
+    height: 50px;
+    width: 255px;
+}
+
+select{
+    height: 50px;
+    width: 257px;
+    box-shadow: 0 0 8px 0px rgba(0, 0, 0, 0.15);
+    padding-left: 24px;
+    outline: none;
+    border: none;
+}

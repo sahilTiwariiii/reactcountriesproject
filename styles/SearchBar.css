@@ -1,0 +1,15 @@
+
+input {
+    height: 50px;
+    outline: none;
+    width: 326px;
+    border: none;
+    padding-left: 27px;
+    box-shadow: 0 0 8px 0px rgba(0, 0, 0, 0.15);
+    outline: none;
+}
+@media (max-width: 750px) {
+    .left {
+        width: 0px;
+    }
+}

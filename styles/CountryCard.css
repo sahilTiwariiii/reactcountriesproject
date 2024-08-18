@@ -1,0 +1,79 @@
+
+.content-container{
+    /* Original code */
+    height: 321px;
+    width: 326px;
+    box-shadow: 0 0 8px 0px rgba(0, 0, 0, 0.15);
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    /* background-color: #ccc; */
+}
+
+
+.immg{
+    /* 100 percent of its parent container */
+    width: 100%;
+    /*  */
+    height: 45%;
+    /* using this object-fit:cover properrty we will make the image fit means if the images have small width or small height or if image have large width and large height then there is no effect of it one card it will look like same */
+    object-fit: cover;
+    border-top-left-radius:11px;
+    border-top-right-radius:11px;
+    /* padding-bottom: 11px; */
+
+}
+
+.namee{
+    padding-left: 13px;
+    font-size:  24px;
+    font-weight: 700;
+    /* padding-bottom: 15px; */
+}
+
+.pop{
+    padding-left: 13px;
+    font-size: 16px;
+    font-weight: 700;
+    /* padding-bottom: 10px; */
+}
+
+.cap{
+    padding-left: 13px;
+    font-size: 16px;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+.re{
+    padding-left: 13px;
+    font-size: 16px;
+    font-weight: 700;
+    /* padding-bottom: 10px; */
+} 
+
+span{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+h4{
+    margin-bottom: -10px;
+    font-weight: 700;
+}
+@media(max-width:750px) {
+    .whole-cards{
+        justify-content: center;
+    }
+}
+.content-container:hover{
+    transform:scale(1.03);
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.meow{
+    background-color: #2B3945;
+}
+

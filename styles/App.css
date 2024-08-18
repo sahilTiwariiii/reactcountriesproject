@@ -1,0 +1,26 @@
+.main-container {
+    display: flex;
+    height: 30px;
+    justify-content: space-between;
+    padding-left: 41px;
+    margin-top: 44px;
+    padding-right: 41px;
+    padding-bottom: 51px;
+    max-width: 1200px;
+    margin-inline: auto;
+}
+
+
+@media(max-width:750px) {
+    .main-container{
+        margin-bottom: 100px;
+        flex-direction: column;
+        gap: 34px;
+    }
+    .left{
+        width: 0px;
+    }
+    input{
+        width: 276px
+    }
+}

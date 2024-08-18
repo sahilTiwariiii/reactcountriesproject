@@ -1,0 +1,19 @@
+
+.shimmer-container{
+    /* Original Code */
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    /* justify-content: center; */
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1400px;
+    margin-inline: auto;
+    gap: 25px;
+   }
+
+   @media(max-width:750px) {
+    .shimmer-container{
+        justify-content: center;
+    }
+   }

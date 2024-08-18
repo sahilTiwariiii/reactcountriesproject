@@ -1,0 +1,18 @@
+.whole-cards{
+    /* Original Code */
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    /* justify-content: center; */
+    justify-content: center;
+    align-items: center;
+    max-width: 1400px;
+    margin-inline: auto;
+    gap: 25px;
+   }
+
+   @media(max-width:750px) {
+    .whole-cards{
+        justify-content: center;
+    }
+   }

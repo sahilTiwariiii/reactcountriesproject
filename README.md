@@ -48,7 +48,7 @@ For user comfort and accessibility, the app includes a **dark and light mode tog
 
 Check out the live version of the project:
 
-🔗 [Live Demo](your_live_project_link)
+🔗 [Live Demo](https://countriesprojectreactt.netlify.app/)
 
 Explore the full functionality of the project and see how it handles real-time data fetching, lazy loading, and the shimmer effect in action.
 
